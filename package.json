@@ -1,0 +1,23 @@
+{
+  "name": "pal-tool",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "preact": "^10.19.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.5.3",
+    "@preact/preset-vite": "^2.7.0",
+    "@types/bun": "^1.0.4",
+    "cheerio": "^1.0.0-rc.12",
+    "csv": "^6.3.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  }
+}
